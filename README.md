@@ -64,5 +64,30 @@ https://backlog.com/git-tutorial/cn/stepup/stepup3_1.html
 https://www.bilibili.com/video/BV1FE411P7B3?p=12&vd_source=a46dd0375a979b926c659d335bb1f210
 https://www.bilibili.com/video/BV1r3411F7kn/?spm_id_from=333.788.recommend_more_video.-1&vd_source=a46dd0375a979b926c659d335bb1f210
 
-
 ## 遇到的问题
+
+访问速度不行,无法 git clone 或者无法git push
+
+![image-20220904151351425](README.assets/image-20220904151351425.png)
+
+命令是
+
+```
+$ git config --global http.sslVerify "false"
+```
+
+这种搞了之后关了代理可以正常用了,但是开着代理用不了
+
+
+
+所有还要修改git走代理
+
+![image-20220904151456945](README.assets/image-20220904151456945.png)
+
+
+
+````
+git config --global http.proxy "socks5://127.0.0.1:7890"
+git config --global https.proxy "socks5://127.0.0.1:7890"
+````
+
