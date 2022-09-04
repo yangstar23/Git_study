@@ -15,6 +15,9 @@ git status 查看文件状态
 git add . 添加到暂存区
 git commit -m "说明" 把暂存区里面的文件放到本地仓库
 
+git push 将本地仓库的东西推送到远程仓库
+git pull 将远程仓库里的东西拉去到本地工作区
+
 .gitignore 文件,在里面存放不需要跟踪的文件名称
 ```
 
