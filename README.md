@@ -1,4 +1,4 @@
-# Git_study
+# Git学习笔记
 
 
 ## Git的结构
@@ -91,3 +91,8 @@ git config --global http.proxy "socks5://127.0.0.1:7890"
 git config --global https.proxy "socks5://127.0.0.1:7890"
 ````
 
+## 最后想说的话
+
+电脑技术还是要多尝试,用多了其实就会了
+
+之前我一直没有掌握,就是不知道在 本地文件夹 和github 之间还夹杂着 两个
